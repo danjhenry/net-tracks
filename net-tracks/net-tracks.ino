@@ -28,7 +28,6 @@ void keep_alive() {
   }
 }
 
-
 void handleControls() {
   String message;
   timeout = 0;
@@ -107,4 +106,3 @@ void loop() {
   server.handleClient();
   keep_alive();
 }
-
