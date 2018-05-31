@@ -2,8 +2,8 @@
 #include <ESP8266WebServer.h>
 #include "WiFiClient.h"
 
-const char* ssid = "Quantum Link";
-const char* password = "HPGNLWZ2DNTXB5K7";
+const char* ssid = "";
+const char* password = "";
 
 ESP8266WebServer server(80);
 int timeout = 0;
