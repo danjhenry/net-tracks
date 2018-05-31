@@ -19,8 +19,8 @@ def main():
         keysOn = keyState('WASD')
         if(keysOn):
             state = True
-            payload['Relay'] = 2
-            payload['steerAngle'] = 68
+            payload['left_bank'] = 2
+            payload['right_bank'] = 2
             for key in keysOn:
                 if(key == 'W'):
                     payload['left_bank'] = 1
