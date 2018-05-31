@@ -99,7 +99,6 @@ void setup() {
   pinMode(D1, OUTPUT); // left_bank_relay_1
   pinMode(D2, OUTPUT); // right_bank_relay_0
   pinMode(D3, OUTPUT); // right_bank_relay_1
-
 }
 
 void loop() {
